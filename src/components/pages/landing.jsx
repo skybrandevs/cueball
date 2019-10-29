@@ -46,7 +46,7 @@ const Landing = () => (
 
 <div className="card">
 
-<img src={get} className="img-fluid"/>
+<img src={get} className="img-fluid get-mobile"/>
 <h4 className="card-fnt-header"> <span className="gold">Get </span> <br/> Started</h4>
 <div className="container">
 <div className="brder"></div>
@@ -111,7 +111,7 @@ const Landing = () => (
 </div>
 
 
-<div className="locations">
+<div className="locations hide-on-mobile">
 
 
 <div className="container">

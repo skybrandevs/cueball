@@ -1,12 +1,14 @@
 import React from "react";
 import Topnav from "./partials/topnav";
-import Navbar from "./partials/navbar";
 import Newsletter from "./partials/newsletter";
-import esrb from "../../esrb.png"
-import unity from "../../unity.jpg"
+import ball from "../../ball.svg";
 import play from "../../play.svg"
-import tutorial from "../../images/tutorial.jpg";
 import { Link } from "react-router-dom";
+import get from "../../get.png";
+import basics from "../../basics.png";
+import promotions from "../../promotions.png";
+import tips from "../../tips.png";
+import locations from "../../locations.png";
 
 
 
@@ -14,10 +16,24 @@ const Landing = () => (
 
 <div>
 
-    <div className="fancy-bac">
 
 <Topnav/>
-<Navbar/>
+
+
+    <div className="fancy-bac">
+
+
+<div className="container">
+
+
+<div className="col-sm-12">
+
+<img src={ball} className="img-fluid balls shake"/>
+
+</div>
+
+
+</div>
 
 
 
@@ -25,58 +41,92 @@ const Landing = () => (
 
 <div className="row">
 
-<div className="col-sm-6">
 
+<div className="col-sm">
 
-<h3 className="main-intro">Break <br/> New Grounds.</h3>
+<div className="card">
 
-<p className="sub-intro">From the street to real gaming, Break new grounds in CUEBALL.</p>
-
-<img src={esrb} className="img-fluid esrb zoom"/>
-<img src={unity} className="img-fluid unity zoom"/>
-
+<img src={get} className="img-fluid"/>
+<h4 className="card-fnt-header"> <span className="gold">Get </span> <br/> Started</h4>
+<div className="container">
+<div className="brder"></div>
+<p className="half-detials">Get started and start winning <br/> in 2 easy steps</p>
+<Link to="/account">
+<button className="btn-brief">Continue</button>
+</Link>
 </div>
 
 
+</div>
 
-<div className="col-sm-6">
+</div>
 
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-    <img src={tutorial} className="img-fluid tutu img-2"/>
-    </div>
-    <div class="carousel-item">
-    <img src={tutorial} className="img-fluid tutu img-2"/>
-    </div>
-    <div class="carousel-item">
-    <img src={tutorial} className="img-fluid tutu img-2"/>
-    </div>
-  </div>
+<div className="col-sm">
+<div className="card">
+<img src={basics} className="img-fluid"/>
+<h4 className="card-fnt-header"> <span className="gold">Cueball </span> <br/> Basics</h4>
+<div className="container">
+<div className="brder"></div>
+<p className="half-detials">All you need to know about <br/>Cueball</p>
+<button className="btn-brief">Detials</button>
+</div>
+
+
+</div>
+</div>
+
+<div className="col-sm">
+<div className="card">
+<img src={promotions} className="img-fluid"/>
+<h4 className="card-fnt-header"> <span className="gold">Cueball</span> <br/>Promotions</h4>
+<div className="container">
+<div className="brder"></div>
+<p className="half-detials">Check out our promotions <br/> and exclusive starter packs</p>
+<button className="btn-brief">Check out</button>
+</div>
+
+</div>
+</div>
+
+<div className="col-sm">
+<div className="card">
+<img src={tips} className="img-fluid"/>
+<h4 className="card-fnt-header"> <span className="gold">Tips </span> <br/> & Tricks</h4>
+<div className="container">
+<div className="brder"></div>
+<p className="half-detials">Learn how to play & <br/> dominate the <br/> game</p>
+<button className="btn-brief">Learn</button>
 </div>
 
   
-
-
 </div>
-
-
-
-
-
-
 </div>
 
 
 </div>
 
-
-
+</div>
 
 
 </div>
 
 
+<div className="locations">
+
+
+<div className="container">
+
+<div className="col-sm-12">
+
+<img src={locations} className="img-fluid loocc"/>
+
+</div>
+
+
+</div>
+
+
+</div>
 
 {/** end of first section*/}
 

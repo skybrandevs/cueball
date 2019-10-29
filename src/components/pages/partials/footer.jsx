@@ -1,10 +1,12 @@
 import React from "react";
 import esrb from "../../../esrb.png";
+import unity from "../../../unity.jpg"
 import careers from "../../../careers.svg";
 import lang from "../../../lang.svg";
 import leader2 from "../../../leader2.svg"
 import help2 from "../../../help2.svg";
-
+import news from "../../../news.svg";
+import community from "../../../community.svg";
 const Footer = () => (
 
 
@@ -54,7 +56,8 @@ const Footer = () => (
 
 <div className="col-sm-12">
 
-<img src={esrb} className="img-fluid esrb zoom img-2 padd-bottom float-right"/>
+<img src={esrb} className="img-fluid esrb  img-2 padd-bottom float-right"/>
+<img src={unity} className="img-fluid unity  img-2-3  padd-bottom float-right"/>
 
 </div>
 
@@ -89,8 +92,14 @@ const Footer = () => (
 
 <li className="ff"><img src={careers} className="img-fluid lang zoom"/>CAREERS</li>
 
+<li className="ff"><img src={community} className="img-fluid lang zoom"/>COMMUNITY</li>
+
+<li className="ff"><img src={news} className="img-fluid lang zoom"/>NEWS & UPDATE</li>
+
+
 </ul>
 </div>
+
 
 
 <div className="col-sm-12 mrg-top">

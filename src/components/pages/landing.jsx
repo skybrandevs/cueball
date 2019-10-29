@@ -89,7 +89,7 @@ const Landing = () => (
 </div>
 
 <div className="col-sm">
-<div className="card">
+<div className="card left-nn">
 <img src={tips} className="img-fluid"/>
 <h4 className="card-fnt-header"> <span className="gold">Tips </span> <br/> & Tricks</h4>
 <div className="container">

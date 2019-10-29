@@ -36,10 +36,13 @@ const Account = () => (
 
 <button className="btn-account"><span><img src={fb_new} className="img-fluid fb"/></span>Sign in with facebook</button>
 
+
+{/*
 <Link to="/landing">
 <img src={canceal} className="img-fluid canceal"/>
 </Link>
 
+*/}
 </div>
 
 

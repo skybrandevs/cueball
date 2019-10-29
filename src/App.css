@@ -880,6 +880,23 @@ margin-right: auto;
 
   @media only screen and (min-width: 320px) and (max-width: 480px) {
 
+    .esrb{
+
+      width:40px !important;
+      border-radius: 5px;
+      margin-top: 30px;
+      
+      }
+      
+      
+      .unity{
+      
+        width:110px;
+      margin-top: 30px;
+      
+      
+      }
+
 
 .hide-on-mobile{
   display: none !important;
@@ -998,6 +1015,48 @@ margin-right: auto;
   @media only screen and (min-width: 568px) and (max-width: 812px) and (orientation:landscape) {
 
 
+
+    .hide-on-mobile{
+      display: none !important;
+    }
+    
+    
+        .get-mobile{
+    
+    width: 185px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+        }
+    
+    
+    
+        .card{
+    
+          width:185px !important;
+          height:auto !important;
+          background-color:#1C232C;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top:50px !important; 
+          margin-bottom:20px !important;
+           }
+          
+    
+
+
+
+    .balls{
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+      
+       }
+
     .bac-white{
 
       background-color:#F3F3F3;
@@ -1107,6 +1166,42 @@ margin-top: 30px;
   {
 
 
+    .left-nn{
+
+float: left !important;
+
+    }
+
+
+
+    .hide-on-mobile{
+      display: none !important;
+    }
+    
+    
+        .get-mobile{
+    
+    width: 185px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+        }
+    
+    
+    
+        .card{
+    
+          width:185px !important;
+          height:auto !important;
+          background-color:#1C232C;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top:50px !important; 
+          margin-bottom:20px !important;
+           }
+          
    
 
 
@@ -1217,6 +1312,45 @@ margin-top: 30px;
 
 
 
+  .left-nn{
+
+    float: left !important;
+    
+        }
+    
+    
+    
+        .hide-on-mobile{
+          display: none !important;
+        }
+        
+        
+            .get-mobile{
+        
+        width: 185px !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+            }
+        
+        
+        
+            .card{
+        
+              width:185px !important;
+              height:auto !important;
+              background-color:#1C232C;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top:50px !important; 
+              margin-bottom:20px !important;
+               }
+              
+
+
+
 
   .bac-white{
 
@@ -1314,6 +1448,41 @@ outline: none !important;
 
 
 
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 1024px) and (max-device-width:768px) and (orientation:landscape) {
+
+
+  
+      .get-mobile{
+  
+  width: 185px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+      }
+  
+  
+  
+      .card{
+  
+        width:185px !important;
+        height:auto !important;
+        background-color:#1C232C;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:20px !important;
+         }
+        
+
+
+
+}
+
+
+
+
 /*media query for 6.0 screen */
 
 @media screen 
@@ -1324,6 +1493,34 @@ and (max-height:1440px)
  { 
 
 
+  .hide-on-mobile{
+    display: none !important;
+  }
+  
+  
+      .get-mobile{
+  
+  width: 200px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+      }
+  
+  
+  
+      .card{
+  
+        width:200px !important;
+        height:auto !important;
+        background-color:#1C232C;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:50px !important; 
+        margin-bottom:20px !important;
+         }
+        
 
 
 

@@ -86,11 +86,13 @@ const Footer = () => (
 
 <li className="ff"><img src={leader2} className="img-fluid lang zoom"/>LEADER BOARDS</li>
 
-
+<a href="https://optimalsplus.com/about" target="_blank;">
 <li className="ff">ABOUT US</li>
+</a>
 
-
+<a href="https://optimalsplus.com/careers" target="_blank;">
 <li className="ff"><img src={careers} className="img-fluid lang zoom"/>CAREERS</li>
+</a>
 
 <li className="ff"><img src={community} className="img-fluid lang zoom"/>COMMUNITY</li>
 

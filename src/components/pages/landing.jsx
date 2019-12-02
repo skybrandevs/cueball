@@ -110,7 +110,7 @@ const Landing = () => (
 
 </div>
 
-
+{/*
 <div className="locations hide-on-mobile">
 
 
@@ -127,6 +127,7 @@ const Landing = () => (
 
 
 </div>
+*/}
 
 {/** end of first section*/}
 

@@ -3,6 +3,7 @@ import cue from "../../images/cue.png";
 import fb_new from "../../fb_new.svg";
 import canceal from "../../canceal.svg";
 import { Link } from "react-router-dom";
+import Topnav from "./partials/topnav";
 
 
 const Account = () => (
@@ -13,6 +14,8 @@ const Account = () => (
 
 
 <div className="bac-overall">
+
+    <Topnav/>
 
 <div className="container">
 

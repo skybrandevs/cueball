@@ -1683,3 +1683,23 @@ outline: none !important;
   outline: none !important;
   
   }
+
+
+/* css for help page */
+
+
+
+  .fancy-bac-2{
+
+background-image: url("images/help.png");
+height:95vh;
+background-size: cover;
+background-repeat: no-repeat;
+  }
+
+
+  .mrg-top-help{
+
+margin-top: 250px;
+text-align: center;
+  }

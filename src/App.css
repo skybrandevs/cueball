@@ -317,12 +317,29 @@ height:auto;
 
 
 
+
       }
 
 
  .li-style-1{
 
 margin-right:50px;
+  display: inline-block;
+ Color:#B1B1B1;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 16px;
+ line-height:26px;
+ margin-top: 10px;
+ list-style: none !important;
+
+ }
+
+
+ .li-style-3{
+
+  margin-right:50px;
   display: inline-block;
  Color:#B1B1B1;
  font-family: 'Open Sans', sans-serif;
@@ -880,6 +897,36 @@ margin-right: auto;
 
   @media only screen and (min-width: 320px) and (max-width: 480px) {
 
+    .outer-mrg{
+      margin-top:450px;
+    }
+
+    .no-data{
+
+
+      font-family:EuclidCircularBBoldimport;
+      color: whitesmoke;
+      font-size: 25px !important;
+      font-style: italic;
+      font-weight: 700;
+     padding-bottom: 100px;
+    }
+
+
+    .card-leader-board{
+
+      background-image: linear-gradient(to right,#E13742,#D03784);
+      width: 100%;
+      height:fit-content !important;
+      margin-top:0px !important;
+      border-radius: 0px !important;
+    
+     
+  
+  }
+
+
+
     .esrb{
 
       width:40px !important;
@@ -1164,7 +1211,7 @@ margin-top: 30px;
   and (device-width: 823px) 
   and (device-height: 411px) 
   {
-
+   
 
     .left-nn{
 
@@ -1492,6 +1539,39 @@ and (max-height:1440px)
  and (-webkit-max-device-pixel-ratio:2)
  { 
 
+  .outer-mrg{
+    margin-top:300px;
+  }
+
+  .no-data{
+
+
+    font-family:EuclidCircularBBoldimport;
+    color: whitesmoke;
+    font-size: 38px !important;
+    font-style: italic;
+    font-weight: 700;
+    padding-bottom:150px !important;
+   
+   
+  
+  }
+
+
+  .card-leader-board{
+
+    background-image: linear-gradient(to right,#E13742,#D03784);
+    width: 100%;
+    height:fit-content !important;
+    margin-top:0px !important;
+    border-radius: 0px !important;
+  
+   
+
+}
+
+
+
 
   .hide-on-mobile{
     display: none !important;
@@ -1695,11 +1775,103 @@ background-image: url("images/help.png");
 height:95vh;
 background-size: cover;
 background-repeat: no-repeat;
+background-attachment: fixed;
   }
 
 
   .mrg-top-help{
-
-margin-top: 250px;
-text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size:50px;
+    font-weight:700;
+    color: whitesmoke;
+    margin-top: 120px;
+    text-align: center;
   }
+
+  .help-intro{
+
+text-align:center;
+font-family:EuclidCircularBLightimport;
+color: whitesmoke;
+margin-top:25px;
+
+  }
+
+  .help-icon{
+
+width:200px;
+display:inline-block;
+margin:50px;
+
+  }
+
+  .mrg-icon{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .bac-leader{
+
+    background-image: url("images/bac-leader.jpg");
+height: 100vh;
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x:right;
+
+  }
+
+
+  .card-leader-board{
+
+    background-image: linear-gradient(to right,#E13742,#D03784);
+    width: 100%;
+    height:auto;
+    margin-top:120px;
+    border-radius: 3px;
+
+   
+
+}
+
+
+.leader-font{
+  font-family: 'Oswald', sans-serif;
+  color:whitesmoke;
+  margin:50px;
+  font-size:35px;
+
+}
+
+.top-leader-2{
+
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size:22px;
+  margin:50px;
+  text-align:left;
+  font-weight: 700;
+}
+
+.no-data{
+
+
+  font-family:EuclidCircularBBoldimport;
+  color: whitesmoke;
+  font-size: 40px;
+  margin:50px;
+  font-style: italic;
+  font-weight: 700;
+  
+ 
+
+}
+
+.help-game{
+
+width:80px;
+padding-right: 8px;
+
+}
+

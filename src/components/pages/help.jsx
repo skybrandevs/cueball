@@ -1,5 +1,8 @@
 import React from "react";
 import Topnav from "./partials/topnav";
+import helpgame from "../../helpgame.svg";
+import helpaccount from "../../helpaccount.svg";
+import { Link } from "react-router-dom";
 
 
 
@@ -23,23 +26,16 @@ const Help = () => (
 <div className="row">
 
 
-<div className="col-sm-6">
+<div className="col-sm-12">
 
 
-<h3 className="main-intro mrg-top-help">Get help.</h3>
+<h3 className=" mrg-top-help">Get help.</h3>
 
-<p className="sub-intro">From the street to real gaming, <br/>Break new grounds with CUEBALL.</p>
-
-
-
-</div>
-
-<div className="col-sm-6">
+<p className="help-intro">From the street to real gaming, <br/>break new grounds with CUEBALL.</p>
 
 
 
 </div>
-
 
 
 
@@ -50,6 +46,30 @@ const Help = () => (
 
 </div>
 
+
+<div className="container">
+
+<div className="row">
+
+<div className="mrg-icon">
+<div className="col ">
+
+<Link to="/" title="Help with a game">
+ <img src={helpgame} className="img-fluid help-icon zoom"/>
+</Link>
+
+<Link to="/" title="Help My account">
+<img src={helpaccount} className="img-fluid help-icon zoom"/>
+</Link>
+
+</div>
+
+</div>
+
+
+
+</div>
+</div>
 
 
 

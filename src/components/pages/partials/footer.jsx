@@ -7,6 +7,7 @@ import leader2 from "../../../leader2.svg"
 import help2 from "../../../help2.svg";
 import news from "../../../news.svg";
 import community from "../../../community.svg";
+import { Link } from "react-router-dom";
 const Footer = () => (
 
 
@@ -23,7 +24,7 @@ const Footer = () => (
 <div className="row">
 <div className="col-sm-8">
 
-<ul>
+<ul className="">
 
 
 <h6 className="follow">CUEBALL</h6> <br/>
@@ -43,10 +44,21 @@ const Footer = () => (
 
 <div className="col-sm-4">
 
-<h6 className="follow float-right">FOLLOW CUEBALL</h6> <br/>
+<ul>
+<h6 className="follow">FOLLOW CUEBALL</h6> <br/>
+
+<a href="https://www.facebook.com/CueBallApp/" target="_blank;">
+<li className="li-style-3">FACEBOOK</li>
+</a>
+
+<a href="https://www.instagram.com/cueballapp/" target="_blank;">
+<li className="li-style-3">INSTAGRAM</li>
+</a>
 
 
+</ul>
 </div>
+
 
 </div>
 
@@ -82,9 +94,13 @@ const Footer = () => (
 
 <li className="ff"><img src={lang} className="img-fluid lang zoom"/>BROWSE LOCATIONS</li>
 
+<Link to="/help">
 <li className="ff"><img src={help2} className="img-fluid lang zoom"/> HELP CENTER</li>
+</Link>
 
+<Link to="/leaderboards">
 <li className="ff"><img src={leader2} className="img-fluid lang zoom"/>LEADER BOARDS</li>
+</Link>
 
 <a href="https://optimalsplus.com/about" target="_blank;">
 <li className="ff">ABOUT US</li>

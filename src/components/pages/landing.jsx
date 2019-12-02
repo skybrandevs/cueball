@@ -28,7 +28,7 @@ const Landing = () => (
 
 <div className="col-sm-12">
 
-<img src={ball} className="img-fluid balls shake"/>
+<img src={ball} className="img-fluid balls "/>
 
 </div>
 

@@ -6,6 +6,7 @@ import Account from "./components/pages/account";
 import Footer from "./components/pages/partials/footer";
 import Help from "./components/pages/help";
 import Leaderboards from "./components/pages/leaderboards";
+import News from "./components/pages/news";
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/account" component={Account}/>
         <Route exact path="/help" component={Help}/>
         <Route exact path="/leaderboards" component={Leaderboards}/>
+        <Route exact path="/news" component={News}/>
       </Switch>
       <Footer/>
     </Router>

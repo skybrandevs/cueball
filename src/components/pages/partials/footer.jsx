@@ -111,9 +111,9 @@ const Footer = () => (
 </a>
 
 <li className="ff"><img src={community} className="img-fluid lang zoom"/>COMMUNITY</li>
-
+<Link to="/news">
 <li className="ff"><img src={news} className="img-fluid lang zoom"/>NEWS & UPDATE</li>
-
+</Link>
 
 </ul>
 </div>

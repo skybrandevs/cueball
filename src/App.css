@@ -1838,7 +1838,11 @@ background-position-x:right;
     margin-top:120px;
     border-radius: 3px;
 
-   
+}
+
+.rainbow-background{
+
+  background-image: linear-gradient(to right,#E44F40,#F0984D);
 
 }
 

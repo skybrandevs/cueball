@@ -1539,6 +1539,12 @@ and (max-height:1440px)
  and (-webkit-max-device-pixel-ratio:2)
  { 
 
+  .help-icon{
+
+    width:90px !important;
+
+      }
+
   .outer-mrg{
     margin-top:300px;
   }
@@ -1874,4 +1880,817 @@ width:80px;
 padding-right: 8px;
 
 }
+
+/* special media query */ 
+
+/*galaxy s5 potrait mode*/
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) {
+
+
+
+    .help-icon{
+
+      width:80px;
+      display:block;
+     
+      
+        }
+      
+
+
+  
+  .outer-mrg{
+    margin-top:450px;
+  }
+
+
+
+  .no-data{
+
+
+    font-family:EuclidCircularBBoldimport;
+    color: whitesmoke;
+    font-size: 25px !important;
+    font-style: italic;
+    font-weight: 700;
+   padding-bottom: 100px;
+  }
+
+
+
+
+  .card-leader-board{
+
+    background-image: linear-gradient(to right,#E13742,#D03784);
+    width: 100%;
+    height:fit-content !important;
+    margin-top:0px !important;
+    border-radius: 0px !important;
+  
+   
+
+}
+
+
+
+
+
+ }
+
+ /*end*/
+
+
+ /*galaxy s5 landscape */
+ @media screen 
+  and (device-width: 640px) 
+  and (device-height: 360px) {
+
+
+ 
+
+    .help-icon{
+
+      width:80px;
+      display:inline-block;
+    
+      }
+  
+  .outer-mrg{
+    margin-top:450px;
+  }
+
+
+
+  .no-data{
+
+
+    font-family:EuclidCircularBBoldimport;
+    color: whitesmoke;
+    font-size: 25px !important;
+    font-style: italic;
+    font-weight: 700;
+   padding-bottom: 100px;
+  }
+
+
+
+
+  .card-leader-board{
+
+    background-image: linear-gradient(to right,#E13742,#D03784);
+    width: 100%;
+    height:fit-content !important;
+    margin-top:50px !important;
+    border-radius: 0px !important;
+  
+   
+
+}
+
+
+
+
+
+ }
+
+
+ /*end*/
+
+
+ /*pixel 2 potrait mode */ 
+
+ @media screen 
+ and (device-width: 411px) 
+ and (device-height: 731px) {
+
+ 
+
+  .help-icon{
+
+    width:80px;
+    display:block;
+   
+    
+      }
+    
+
+
+ .outer-mrg{
+   margin-top:200px;
+ }
+
+
+
+ .no-data{
+
+
+   font-family:EuclidCircularBBoldimport;
+   color: whitesmoke;
+   font-size: 25px !important;
+   font-style: italic;
+   font-weight: 700;
+  padding-bottom: 100px;
+ }
+
+
+
+
+ .card-leader-board{
+
+   background-image: linear-gradient(to right,#E13742,#D03784);
+   width: 100%;
+   height:fit-content !important;
+   margin-top:0px !important;
+   border-radius: 0px !important;
+ 
+  
+
+}
+
+
+
+
+
+}
+
+
+ /*end*/
+
+
+
+ /*google pixel2 landscape */
+ @media screen 
+  and (device-width: 731px) 
+  and (device-height: 411px) {
+
+
+
+    .help-icon{
+
+      width:80px;
+      display:inline-block;
+    
+      }
+  
+
+  
+  .outer-mrg{
+    margin-top:450px;
+  }
+
+
+
+  .no-data{
+
+
+    font-family:EuclidCircularBBoldimport;
+    color: whitesmoke;
+    font-size: 25px !important;
+    font-style: italic;
+    font-weight: 700;
+   padding-bottom: 100px;
+  }
+
+
+
+
+  .card-leader-board{
+
+    background-image: linear-gradient(to right,#E13742,#D03784);
+    width: 100%;
+    height:fit-content !important;
+    margin-top:50px !important;
+    border-radius: 0px !important;
+  
+   
+
+}
+
+
+
+
+
+ }
+
+
+ /*end*/
+
+
+
+  /*pixel 2xl potrait mode */ 
+
+  @media screen 
+  and (device-width: 411px) 
+  and (device-height: 823px) {
+
+    .help-icon{
+
+      width:90px;
+      display:block;
+     
+      
+        }
+      
+ 
+  
+  .outer-mrg{
+    margin-top:120px;
+  }
+ 
+ 
+ 
+  .no-data{
+ 
+ 
+    font-family:EuclidCircularBBoldimport;
+    color: whitesmoke;
+    font-size: 25px !important;
+    font-style: italic;
+    font-weight: 700;
+   padding-bottom: 100px;
+  }
+ 
+ 
+ 
+ 
+  .card-leader-board{
+ 
+    background-image: linear-gradient(to right,#E13742,#D03784);
+    width: 100%;
+    height:fit-content !important;
+    margin-top:0px !important;
+    border-radius: 0px !important;
+  
+   
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+  /*end*/
+
+
+
+ /*google pixel 2xl landscape mode */
+ @media screen 
+ and (device-width: 823px) 
+ and (device-height: 411px) {
+
+
+  .help-icon{
+
+    width:80px;
+    display:inline-block;
+  
+    }
+
+ 
+ .outer-mrg{
+   margin-top:450px;
+ }
+
+
+
+ .no-data{
+
+
+   font-family:EuclidCircularBBoldimport;
+   color: whitesmoke;
+   font-size: 25px !important;
+   font-style: italic;
+   font-weight: 700;
+  padding-bottom: 100px;
+ }
+
+
+
+
+ .card-leader-board{
+
+   background-image: linear-gradient(to right,#E13742,#D03784);
+   width: 100%;
+   height:fit-content !important;
+   margin-top:100px !important;
+   border-radius: 0px !important;
+ 
+  
+
+}
+
+
+
+
+
+}
+
+
+/*end*/
+
+
+
+  /*iphone 5 / SE  potrait mode */ 
+
+  @media screen 
+  and (device-width: 320px) 
+  and (device-height: 568px) {
+ 
+
+    .help-icon{
+
+      width:80px;
+      display:block;
+     
+      
+        }
+      
+  
+  .outer-mrg{
+    margin-top:600px;
+  }
+ 
+ 
+ 
+  .no-data{
+ 
+ 
+    font-family:EuclidCircularBBoldimport;
+    color: whitesmoke;
+    font-size: 25px !important;
+    font-style: italic;
+    font-weight: 700;
+   padding-bottom: 100px;
+  }
+ 
+ 
+ 
+ 
+  .card-leader-board{
+ 
+    background-image: linear-gradient(to right,#E13742,#D03784);
+    width: 100%;
+    height:fit-content !important;
+    margin-top:0px !important;
+    border-radius: 0px !important;
+  
+   
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+  /*end*/
+
+
+
+
+
+ /*iphone 5 / SE landscape mode */
+ @media screen 
+ and (device-width: 568px) 
+ and (device-height: 320px) {
+
+
+  .help-icon{
+
+    width:80px;
+    display:inline-block;
+  
+    }
+
+ 
+ .outer-mrg{
+   margin-top:600px;
+ }
+
+
+
+ .no-data{
+
+
+   font-family:EuclidCircularBBoldimport;
+   color: whitesmoke;
+   font-size: 25px !important;
+   font-style: italic;
+   font-weight: 700;
+  padding-bottom: 100px;
+ }
+
+
+
+
+ .card-leader-board{
+
+   background-image: linear-gradient(to right,#E13742,#D03784);
+   width: 100%;
+   height:fit-content !important;
+   margin-top:0px !important;
+   border-radius: 0px !important;
+ 
+  
+
+}
+
+
+
+
+
+}
+
+
+/*end*/
+
+
+
+ /*iphone 6 / 7 / 8 potrait mode */ 
+
+ @media screen 
+ and (device-width: 375px) 
+ and (device-height: 667px) {
+
+  .help-icon{
+
+    width:80px;
+    display:block;
+   
+    
+      }
+ 
+ .outer-mrg{
+   margin-top:450px;
+ }
+
+
+
+ .no-data{
+
+
+   font-family:EuclidCircularBBoldimport;
+   color: whitesmoke;
+   font-size: 25px !important;
+   font-style: italic;
+   font-weight: 700;
+  padding-bottom: 100px;
+ }
+
+
+
+
+ .card-leader-board{
+
+   background-image: linear-gradient(to right,#E13742,#D03784);
+   width: 100%;
+   height:fit-content !important;
+   margin-top:0px !important;
+   border-radius: 0px !important;
+ 
+  
+
+}
+
+
+
+
+
+}
+
+
+ /*end*/
+
+
+
+
+
+ /*iphone 6 / 7/ 8 landscape mode */
+ @media screen 
+ and (device-width: 667px) 
+ and (device-height: 375px) {
+
+  .help-icon{
+
+    width:80px;
+    display:inline-block;
+  
+    }
+ 
+ .outer-mrg{
+   margin-top:550px;
+ }
+
+
+
+ .no-data{
+
+
+   font-family:EuclidCircularBBoldimport;
+   color: whitesmoke;
+   font-size: 25px !important;
+   font-style: italic;
+   font-weight: 700;
+  padding-bottom: 100px;
+ }
+
+
+
+
+ .card-leader-board{
+
+   background-image: linear-gradient(to right,#E13742,#D03784);
+   width: 100%;
+   height:fit-content !important;
+   margin-top:100px !important;
+   border-radius: 0px !important;
+ 
+  
+
+}
+
+
+
+
+
+}
+
+
+/*end*/
+
+
+
+
+ /*iphone 6 / 7 / 8 plus potrait mode */ 
+
+ @media screen 
+ and (device-width: 414px) 
+ and (device-height: 736px) {
+
+  .help-icon{
+
+    width:90px;
+    display:block;
+   
+    
+      }
+
+ 
+ .outer-mrg{
+   margin-top:180px;
+ }
+
+
+
+ .no-data{
+
+
+   font-family:EuclidCircularBBoldimport;
+   color: whitesmoke;
+   font-size: 25px !important;
+   font-style: italic;
+   font-weight: 700;
+  padding-bottom: 100px;
+ }
+
+
+
+
+ .card-leader-board{
+
+   background-image: linear-gradient(to right,#E13742,#D03784);
+   width: 100%;
+   height:fit-content !important;
+   margin-top:0px !important;
+   border-radius: 0px !important;
+ 
+  
+
+}
+
+
+
+
+
+}
+
+
+ /*end*/
+
+
+
+
+ /*iphone 6 / 7/ 8  plus landscape mode */
+ @media screen 
+ and (device-width: 736px) 
+ and (device-height: 414px) {
+
+  .help-icon{
+
+    width:80px;
+    display:inline-block;
+  
+    }
+ 
+ .outer-mrg{
+   margin-top:550px;
+ }
+
+
+
+ .no-data{
+
+
+   font-family:EuclidCircularBBoldimport;
+   color: whitesmoke;
+   font-size: 25px !important;
+   font-style: italic;
+   font-weight: 700;
+  padding-bottom: 100px;
+ }
+
+
+
+
+ .card-leader-board{
+
+   background-image: linear-gradient(to right,#E13742,#D03784);
+   width: 100%;
+   height:fit-content !important;
+   margin-top:100px !important;
+   border-radius: 0px !important;
+ 
+  
+
+}
+
+
+
+
+
+}
+/*end*/
+
+
+
+
+/*iphone X potrait mode */ 
+
+@media screen 
+and (device-width: 375px) 
+and (device-height: 812px) {
+
+
+
+  .help-icon{
+
+    width:90px;
+    display:block;
+   
+    
+      }
+
+.outer-mrg{
+  margin-top:200px;
+}
+
+
+
+.no-data{
+
+
+  font-family:EuclidCircularBBoldimport;
+  color: whitesmoke;
+  font-size: 25px !important;
+  font-style: italic;
+  font-weight: 700;
+ padding-bottom: 100px;
+}
+
+
+
+
+.card-leader-board{
+
+  background-image: linear-gradient(to right,#E13742,#D03784);
+  width: 100%;
+  height:fit-content !important;
+  margin-top:0px !important;
+  border-radius: 0px !important;
+
+ 
+
+}
+
+
+
+
+
+}
+
+
+/*end*/
+
+
+
+/*iphone X landscape mode */
+@media screen 
+and (device-width: 812px) 
+and (device-height: 375px) {
+
+
+  .help-icon{
+
+    width:80px;
+    display:inline-block;
+  
+    }
+
+.outer-mrg{
+  margin-top:500px;
+}
+
+
+
+.no-data{
+
+
+  font-family:EuclidCircularBBoldimport;
+  color: whitesmoke;
+  font-size: 25px !important;
+  font-style: italic;
+  font-weight: 700;
+ padding-bottom: 100px;
+}
+
+
+
+
+.card-leader-board{
+
+  background-image: linear-gradient(to right,#E13742,#D03784);
+  width: 100%;
+  height:fit-content !important;
+  margin-top:100px !important;
+  border-radius: 0px !important;
+
+ 
+
+}
+
+
+
+
+
+}
+/*end*/
+
 

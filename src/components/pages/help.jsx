@@ -59,7 +59,7 @@ const Help = () => (
 </Link>
 
 <Link to="/" title="Help My account">
-<img src={helpaccount} className="img-fluid help-icon zoom"/>
+<img src={helpaccount} className="img-fluid help-icon  zoom"/>
 </Link>
 
 </div>

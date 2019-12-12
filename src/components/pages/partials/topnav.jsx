@@ -22,9 +22,9 @@ const Topnav = () => (
     </div>
 
 <div className="float-right">
-    <Link to="/account">
+    <a href="https://cueball.bizaflix.com/" target="_blank;">
 <img src={profile} className="img-fluid icon-small zoom" title="My profile"/>
-</Link>
+</a>
 
 <Link to="/help">
 <img src={help} className="img-fluid icon-small zoom" title="get help"/>

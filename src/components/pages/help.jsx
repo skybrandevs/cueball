@@ -54,13 +54,13 @@ const Help = () => (
 <div className="mrg-icon">
 <div className="col ">
 
-<Link to="/" title="Help with a game">
+<a href="gamehelp.html" title="Help with a game">
  <img src={helpgame} className="img-fluid help-icon zoom"/>
-</Link>
+</a>
 
-<Link to="/" title="Help My account">
+<a href="accounts.html" title="Help My account">
 <img src={helpaccount} className="img-fluid help-icon  zoom"/>
-</Link>
+</a>
 
 </div>
 

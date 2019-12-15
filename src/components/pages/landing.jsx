@@ -27,9 +27,9 @@ const Landing = () => (
 
 
 <div className="col-sm-12">
-
+{/** 
 <img src={ball} className="img-fluid balls "/>
-
+**/}
 </div>
 
 
@@ -37,21 +37,21 @@ const Landing = () => (
 
 
 
-<div className="container">
+<div className="container ">
 
-<div className="row">
+<div className="row ">
 
 
-<div className="col-sm">
+<div className="col-sm ">
 
-<div className="card">
+<div className="card mrg-top-2">
 
 <img src={get} className="img-fluid get-mobile"/>
 <h4 className="card-fnt-header"> <span className="gold">Get </span> <br/> Started</h4>
 <div className="container">
 <div className="brder"></div>
 <p className="half-detials">Get started and start winning <br/> in 2 easy steps</p>
-<Link to="/account">
+<Link to="/getstarted">
 <button className="btn-brief">Continue</button>
 </Link>
 </div>
@@ -62,13 +62,15 @@ const Landing = () => (
 </div>
 
 <div className="col-sm">
-<div className="card">
+<div className="card mrg-top-2">
 <img src={basics} className="img-fluid"/>
 <h4 className="card-fnt-header"> <span className="gold">Cueball </span> <br/> Basics</h4>
 <div className="container">
 <div className="brder"></div>
 <p className="half-detials">All you need to know about <br/>Cueball</p>
+<Link to="/basics">
 <button className="btn-brief">Detials</button>
+</Link>
 </div>
 
 
@@ -76,7 +78,7 @@ const Landing = () => (
 </div>
 
 <div className="col-sm">
-<div className="card">
+<div className="card mrg-top-2">
 <img src={promotions} className="img-fluid"/>
 <h4 className="card-fnt-header"> <span className="gold">Cueball</span> <br/>Promotions</h4>
 <div className="container">
@@ -89,13 +91,15 @@ const Landing = () => (
 </div>
 
 <div className="col-sm">
-<div className="card left-nn">
+<div className="card left-nn mrg-top-2">
 <img src={tips} className="img-fluid"/>
-<h4 className="card-fnt-header"> <span className="gold">Tips </span> <br/> & Tricks</h4>
+<h4 className="card-fnt-header"> <span className="gold">Tips </span> <br/> And Tricks</h4>
 <div className="container">
 <div className="brder"></div>
 <p className="half-detials">Learn how to play & <br/> dominate the <br/> game</p>
-<button className="btn-brief">Learn</button>
+<Link to= "/basics">
+    <button className="btn-brief">Learn</button>
+    </Link>
 </div>
 
   
@@ -106,6 +110,8 @@ const Landing = () => (
 </div>
 
 </div>
+
+
 
 
 </div>

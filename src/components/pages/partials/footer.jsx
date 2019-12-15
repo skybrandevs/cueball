@@ -29,13 +29,15 @@ const Footer = () => (
 
 <h6 className="follow">CUEBALL</h6> <br/>
 <li className="li-style-1">About CUEBALL</li>
-
+<Link to="/basics">
 <li className="li-style-1">Basics</li>
+</Link>
 
 <li className="li-style-1">CUEBALL Promotions</li>
 
+<Link to= "/basics">
 <li className="li-style-1">Tips & Tricks</li>
-
+</Link>
 
 </ul>
 
@@ -127,8 +129,9 @@ const Footer = () => (
 <li className="tyy">Legal</li>
 <li className="tyy">Online Service Updates</li>
 <li className="tyy">User Agreement</li> <br/>
+<a href="https://optimalsplus.com/privacy" target="_blank;">
 <li className="tyy">Privacy & Cookie Policy (Your Privacy Rights)
-</li> <br/>
+</li> </a> <br/>
 
 <p className="copyright">© 2019 OPTIMAL PLUS Ltd. </p>
 

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import profile from "../../../profile.svg";
 import help from "../../../help.svg";
 import home from "../../../home.svg";
+import cuee from "../../../cuee.png";
 
 
 
@@ -18,6 +19,8 @@ const Topnav = () => (
 <Link to="/">
     <img src={home} className="img-fluid icon-small zoom" title="Go back"/>
 </Link>
+
+<img src={cuee} className="img-fluid the-cue" />
 
     </div>
 

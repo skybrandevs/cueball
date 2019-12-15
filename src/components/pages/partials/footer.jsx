@@ -108,7 +108,7 @@ const Footer = () => (
 <li className="ff">ABOUT US</li>
 </a>
 
-<a href="https://optimalsplus.com/careers" target="_blank;">
+<a href="https://optimalsplus.com/careers" target="_blank">
 <li className="ff"><img src={careers} className="img-fluid lang zoom"/>CAREERS</li>
 </a>
 
@@ -129,7 +129,7 @@ const Footer = () => (
 <li className="tyy">Legal</li>
 <li className="tyy">Online Service Updates</li>
 <li className="tyy">User Agreement</li> <br/>
-<a href="https://optimalsplus.com/privacy" target="_blank;">
+<a href="https://optimalsplus.com/privacy" target="_blank">
 <li className="tyy">Privacy & Cookie Policy (Your Privacy Rights)
 </li> </a> <br/>
 

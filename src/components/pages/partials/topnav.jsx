@@ -25,7 +25,7 @@ const Topnav = () => (
     </div>
 
 <div className="float-right">
-    <a href="https://cueball.bizaflix.com/" target="_blank;">
+    <a href="https://www.cueballwallet.com" target="_blank;">
 <img src={profile} className="img-fluid icon-small zoom" title="My profile"/>
 </a>
 

@@ -24,7 +24,7 @@ const Getstarted = () => (
 <p className="sub-intro">Build your technique, pick your gear and express your style on the streets of snooker  <br/>with playgrounds & players all over the world.</p>
 
 <div>
-<a href="">
+<a href="https://play.google.com/store/apps/details?id=com.optimalsourceplus.cueball" target="_blank;">
 <img src={googleplaywhite} className="img-fluid img-logo-app zoom "/>
 </a>
 

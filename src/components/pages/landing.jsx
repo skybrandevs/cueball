@@ -155,7 +155,7 @@ const Landing = () => (
 
 
 <div>
-<Link to="/">
+<Link to="/getstarted">
 <button className="cue-btn">Play Now</button>
 </Link>
 

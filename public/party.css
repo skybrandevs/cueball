@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    }
+  
+  #myVideo {
+   
+    width: 100%; 
+    height:100%;
+  }
+  
+
+  .colo{
+
+    background-image: linear-gradient(to right,rgb(92, 198, 227),rgb(117, 240, 180));
+    min-height:100vh;  
+  }
+  
+
+  .btn-register{
+
+margin: 10px 10px 10px 10px;
+background-color: #CFFC52;
+border: 2px solid #CFFC52;
+height:50px;
+font-weight: 400;
+outline: none;
+font-family: 'Oswald', sans-serif;
+
+  }
+
+
+  .btn-register:hover{
+
+    margin: 10px 10px 10px 10px;
+    background-color:transparent;
+    border: 2px solid #CFFC52;
+    height:50px;
+    outline: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    
+      }
+
+  a{
+      text-decoration: none !important;
+      color: black !important;
+  }
+
+
+
+  .icon-small{
+
+    width: 25px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-right: 20px;
+    
+    }
+
+    .logo{
+
+
+        width: 100px;
+        margin: 15px 10px 10px 10px;
+
+
+    }
+
+    .h1-pro{
+
+ font-family: 'Open Sans Condensed', sans-serif !important;
+ text-align: center;
+ font-weight: 500;
+ font-size: 70px;
+line-height: 23px;
+
+    }
+
+    .h1-pro-2{
+
+ font-family: 'Open Sans Condensed', sans-serif !important;
+ text-align: center;
+ font-weight: 500;
+ font-size: 25px;
+line-height: 23px;
+margin-top: 15px;
+margin-bottom: 50px;
+
+    }
+    
+
+    .box{
+
+background-color:#CFFC52;
+width:30%;
+height:32%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 47px 25px 25px 25px;
+
+    }
+
+  
+
+    .mrg-top{
+
+        margin-top: 100px;
+        margin-bottom: 30px;
+         }
+
+         .mrg-2{
+
+            margin-bottom: 30px;
+
+         }
+
+         .hash{
+text-align: left;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+            font-size: 16px;
+  
+         }
+
+
+         .header{
+             text-align: left;
+            font-family:EuclidCircularBBoldimport;
+            font-size: 30px;
+
+         }
+
+         .venue{
+            text-align: left;
+            font-family:EuclidCircularBLightimport;
+            font-size:18px;
+            font-weight: 700;
+            margin-bottom:200px;
+         }
+
+
+
+.img-2:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+  
+  
+  .shake:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+
+
+
+
+@font-face {
+    font-family:EuclidCircularBBoldimport;
+    src: url("fonts/Euclid/EuclidCircularBBold.otf");
+  }
+  
+  
+  
+  @font-face {
+    font-family:EuclidCircularBLightimport;
+    src: url("fonts/Euclid/EuclidCircularBLight.otf");
+  }
+  
+
+  .BB{
+      color: #CFFC52;
+  }
+
+  .hash:hover{
+
+    color: #CFFC52 !important;
+
+  }
+
+  .play{
+
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+  }
+
+
+  .down{
+
+    font-family: 'Oswald', sans-serif;
+  padding-left:20px;
+  margin-top:30px;
+  font-size: 18px;
+
+  }
+
+

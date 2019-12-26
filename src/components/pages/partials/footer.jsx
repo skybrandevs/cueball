@@ -28,12 +28,14 @@ const Footer = () => (
 
 
 <h6 className="follow">CUEBALL</h6> <br/>
-<li className="li-style-1">About CUEBALL</li>
+
 <Link to="/basics">
 <li className="li-style-1">Basics</li>
 </Link>
 
-<li className="li-style-1">CUEBALL Promotions</li>
+<a href="register.html" target="_blank;">
+<li className="li-style-1">Cueball Lunch Party</li>
+</a>
 
 <Link to= "/basics">
 <li className="li-style-1">Tips & Tricks</li>

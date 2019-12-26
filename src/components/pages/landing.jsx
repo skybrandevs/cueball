@@ -80,11 +80,13 @@ const Landing = () => (
 <div className="col-sm">
 <div className="card mrg-top-2">
 <img src={promotions} className="img-fluid"/>
-<h4 className="card-fnt-header"> <span className="gold">Cueball</span> <br/>Promotions</h4>
+<h4 className="card-fnt-header"> <span className="gold">The Cueball</span> <br/>Lunch party</h4>
 <div className="container">
 <div className="brder"></div>
-<p className="half-detials">Check out our promotions <br/> and exclusive starter packs</p>
-<button className="btn-brief">Check out</button>
+<p className="half-detials">We would unveil The<br/>  CueballApp on ios & android</p>
+<a href="register.html" target="_blank;">
+<button className="btn-brief">Attend Event</button>
+</a>
 </div>
 
 </div>
@@ -162,7 +164,7 @@ const Landing = () => (
 
 <Link to="/">
 
-<span className="span-text"><img src={play} className="img-fluid icon-small-2 zoom"/>Watch Trailer</span>
+<span className="span-text"><img src={play} className="img-fluid icon-small-2 zoom"/>Watch Trailer </span>
 
 </Link>
 

@@ -84,7 +84,7 @@ const Landing = () => (
 <div className="container">
 <div className="brder"></div>
 <p className="half-detials">We would unveil The<br/>  CueballApp on ios & android</p>
-<a href="register.html" target="_blank;">
+<a href="register" target="_blank;">
 <button className="btn-brief">Attend Event</button>
 </a>
 </div>

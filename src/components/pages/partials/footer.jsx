@@ -33,7 +33,7 @@ const Footer = () => (
 <li className="li-style-1">Basics</li>
 </Link>
 
-<a href="register" target="_blank;">
+<a href="register.html" target="_blank;">
 <li className="li-style-1">Cueball Lunch Party</li>
 </a>
 

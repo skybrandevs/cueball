@@ -69,7 +69,7 @@ const Landing = () => (
 <div className="brder"></div>
 <p className="half-detials">All you need to know about <br/>Cueball</p>
 <Link to="/basics">
-<button className="btn-brief">Detials</button>
+<button className="btn-brief">Details</button>
 </Link>
 </div>
 

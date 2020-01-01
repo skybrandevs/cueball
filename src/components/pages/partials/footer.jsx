@@ -135,7 +135,7 @@ const Footer = () => (
 <li className="tyy">Privacy & Cookie Policy (Your Privacy Rights)
 </li> </a> <br/>
 
-<p className="copyright">© 2019 OPTIMAL PLUS Ltd. </p>
+<p className="copyright">© 2020 OPTIMAL PLUS Ltd. </p>
 
 
 </ul>
